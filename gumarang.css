@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-image: url(gambar/bgp.jpg);
+    background-size: cover;
+    
+}
+.container{
+    margin:0, auto;
+    
+}
+.container h1{
+    text-align: center;
+
+}
+
+
+h2{
+    text-align:center;
+}
+
+.login-btn{
+    background-color: chartreuse;
+    width: 50px;
+    text-align: center;
+    
+}

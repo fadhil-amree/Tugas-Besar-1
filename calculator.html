@@ -1,0 +1,23 @@
+{%extends 'basic.html'%}
+{%block title%} Kalkulator {%endblock%}
+
+{%block content%}
+<p>KALKULATOR</p>
+
+<form action="#" method="post">
+    <input type="text" name="n1" >
+    
+    <input type="text" name="n2">
+    <input type="submit" value="=">
+    <p> <input type="button" name="op" value="+">
+        <input type="button" name="op" value="-">
+        <input type="button" name="op" value="x">
+        <input type="button" name="op" value="/">
+        <input type="button" name="op" value="//">
+    </p>
+    <span>Masukkan operator: </span>
+    <input type="text" name='op'>
+
+    
+</form>
+{%endblock%}
