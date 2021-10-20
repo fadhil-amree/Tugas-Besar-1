@@ -1,3 +1,0 @@
-gug
-hihi
-ojojoj
