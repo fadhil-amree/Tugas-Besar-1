@@ -1,0 +1,10 @@
+{%extends 'basic.html'%}
+{%block title%} Hasil Kalkulasi {%endblock%}
+
+{%block content%}
+    <p>{{n1}} {{op}} {{n2}} = {{hasil}} </p>
+
+    <p>Lakukan kalkulasi lain:</p>
+    <a href="{{url_for('calculator')}}">Ya</a>
+    <a href="{{url_for('application')}}">Tidak</a>
+{%endblock%}
